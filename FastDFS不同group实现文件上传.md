@@ -268,6 +268,7 @@ python客户端上传文件:
         #    deny  all;
         #}
     }
+    
 ## 4.启动脚本（tracker.sh, storage.sh）
 ### 4.1 原docker中的tracker.sh
 	#!/bin/sh
