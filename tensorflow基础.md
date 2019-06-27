@@ -1,4 +1,4 @@
-#<center>tensorflow的模型训练Training相关函数
+# <center>tensorflow的模型训练Training相关函数
 ## 1.序言
 本文所讲的内容主要为以下列表中相关函数。  
 本文参考链接: [https://www.cnblogs.com/wuzhitj/p/6648641.html]()  
