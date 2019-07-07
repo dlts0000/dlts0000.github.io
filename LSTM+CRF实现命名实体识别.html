@@ -548,8 +548,6 @@ s(X,y) = \sum_{i=0}^nA_{yi,yi+1} + \sum_{i=1}^nP_{i,yi}
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 其中A是转移矩阵，\(A_{i,j}\)表示从标记\(i\)转移到标记\(j\)的概率(但有些算法实现是相反的)，\(y_0\)和\(y_n\)是句子的起始标记和结束标记，我们将起始标记和结束标记加入句子的标记集合，因此A是大小为 \(k+2\)的方阵。</p>
 
-<p>A softmax over all possible tag sequences yields a probability for the sequence y:</p>
-
 <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 通过对所有可能的标记序列执行softmax函数，形成序列\(y\)的概率分布。
 \[
